@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+@mixin color-mixin($color) {
+  color: $color;
+}
+
+.red {
+  @include color-mixin(red);
+}
+
+@function h($height) {
+  @return $height;
+}
+
+.example {
+  height: h(200px);
+  background-color: aquamarine;
+}
+
+@function w($width) {
+  @return $width;
+}
+
+.another-example {
+  width: w(200px);
+  background-color: burlywood;
+}

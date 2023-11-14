@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.red {
+  color: red;
+}
+
+.example {
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.another-example {
+  width: 200px;
+  background-color: burlywood;
+}/*# sourceMappingURL=style.css.map */
